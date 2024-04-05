@@ -91,10 +91,12 @@ function PartieAdministrateur({ quizz, setQuizz, partieAdministrateur, setPartie
                                 </ul>
                             </>
                         ) : (<p> Aucune option</p>)}
-                        <div >
-                        <input type="text" placeholder="Votre nom" name="joueur" id="joueur" value={optionAAjouter} onChange={(e) => setOptionAAjouter(e.target.value)} />
-                        <Button handleClick={addOption}>Ajouter l'option</Button>
-                        </div>
+                        {addOrEditQuestion.options.length < 6 && (
+                            <div >
+                                <input type="text" placeholder="Votre nom" name="joueur" id="joueur" value={optionAAjouter} onChange={(e) => setOptionAAjouter(e.target.value)} />
+                                <Button handleClick={addOption}>Ajouter l'option</Button>
+                            </div>
+                        )}
                     </div>
 
                     <div className="input">
