@@ -1,4 +1,6 @@
-# Mes fonctionnalités 
+# Réaliser une application Web de quiz en React
+
+## Mes fonctionnalités 
 
 - Afficher les questions une à une 
 - Afficher les options réponses (2 à 6 max)
