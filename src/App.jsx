@@ -102,7 +102,7 @@ function App() {
       alert("Vous avez bloqué l'espace !");
     }
   }
-
+  
   return (
     <>
       <h1>Mon QUIZ</h1>
